@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: aliceblue;
+    box-sizing: border-box;
+}
+
+html {
+    background-color: black;
+}
+
+#presentation {
+    padding-top: 75px;
+    font-family: 'Tilt Warp';
+    text-align: center;
+}
+
+#presentation img {
+    width: 100px;
+    height: 100px;
+}
+
+#presentation h1 {
+    font-size: 48px;
+}
+
+#presentation p {
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+#progress {
+    padding-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#progress h2 {
+    font-family: 'Tilt Warp';
+    text-align: center;
+}
+
+#progress table {
+    padding-top: 50px;
+    font-family: 'Roboto Mono', monospace;
+    margin: auto;
+    width: 850px;
+    text-align: left;
+}
+
+#progress table thead th {
+    padding-bottom: 20px;
+    border-bottom: 1px solid darkslategrey;
+}
+
+#progress table tbody td, .progress-row, tfoot td {
+    padding: 10px 0px;
+    border-bottom: 1px solid darkslategrey;
+}
+
+tfoot {
+    padding-top: 40px;
+}
+
+tfoot td {
+    padding-right: 40px;
+    text-align: right;
+}
+
+footer {
+    padding-bottom: 10px;
+    font-family: 'Roboto Mono', monospace;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
